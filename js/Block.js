@@ -28,8 +28,9 @@ class Block{
         World.remove(world,this.body);
         push();
         this.visibility=this.visibility-10;
-        tint(0,153,204,this.Visibility);
+        tint(0,153,204,this.visibility);
         rect(0,0,this.width,this.height);
         pop();
       } 
     }
+  }
